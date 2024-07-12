@@ -3,7 +3,15 @@ let score = "Saad"
 // console.log(typeof score);
 // console.log(typeof(score));
 
+let name = "Saadvasaya"
+
+// console.log(typeof name);
+// console.log(name);
+
 let valueInNumber = Number(score)
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
+// valueInNumber = 299 + 28
 // console.log(typeof valueInNumber);
 // console.log(valueInNumber);
 
@@ -21,9 +29,9 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "" => false
 // "Saad" => true
 
-let someNumber = 33
+let someNumber = "998"
 
-let stringNumber = String(someNumber)
+let stringNumber = Number(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
@@ -58,4 +66,4 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 ++gameCounter;
-console.log(gameCounter);
+// console.log(gameCounter);

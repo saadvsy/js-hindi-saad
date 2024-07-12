@@ -9,10 +9,10 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
-const id = Symbol('123')
+const Id = Symbol('123')
 const anotherId = Symbol('123')
 
-// console.log(id === anotherId);
+// console.log(Id === anotherId);
 
 const bigNumber = 35763547678251532n
 
@@ -22,10 +22,13 @@ const bigNumber = 35763547678251532n
 // Array, Objects, Functions
 
 const heros = ["CaptainAmerica", "IronMan", "Thor"];
+
 let myObj = {
     name: "saad",
     age: 22,
 }
+
+// console.log(myObj);
 
 const myFunction = function() {
     console.log("Hello World");
@@ -41,8 +44,8 @@ const myFunction = function() {
 let myYoutubeName = "Saadvasaya"
 anotherName = "Saaduuu"
 
-console.log(myYoutubeName);
-console.log(anotherName);
+// console.log(myYoutubeName);
+// console.log(anotherName);
 
 let userOne = {
     email: "user@google.com",
